@@ -6,4 +6,4 @@ This script will output a CSV (UTF-8) formatted file with bonusdays and paydays 
 ## Execution
 To execute the script, use a command line interface and execute the following. The script requires the name of the output CSV file as the single parameter. It will error out both when this parameter is omitted or when more than 1 parameters are given.
 
-`code` php salary.php output.csv
+`php salary.php output.csv`
