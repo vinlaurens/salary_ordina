@@ -181,7 +181,6 @@ function isHoliday(DateTime $datetime) {
     ];
 
     if(in_array($datetime->format('d-m'), $holidays)) {
-        echo $datetime->format('d-m') . ' is a holiday!';
         return true;
     }
 
